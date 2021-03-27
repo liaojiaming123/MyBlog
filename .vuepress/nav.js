@@ -18,8 +18,12 @@ module.exports = [
         {"text": "前端实例", "link": "/docs/web/exam/"},
         {"text": "Android基础入门教程", "link": "/docs/android/"},
       ]
-
-    }
+    },
+    {
+      "text": "关于网站",
+      "link": "/blogs/other/about.md",
+      "icon": "reco-message"
+    },
     // {
     //   "text": "关于我",
     //   "icon": "reco-message",

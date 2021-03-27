@@ -1,5 +1,6 @@
 const nav = require('./nav');
 const sidebar = require('./sidebar');
+const plugins = require('./plugins');
 
 module.exports = {
   "title": "廖家明的博客",
@@ -38,6 +39,12 @@ module.exports = {
     },
     "friendLink": [
       {
+        "title": "Vuepress",
+        "desc": "Vue驱动的静态网站生成器",
+        "email": "",
+        "link": "https://vuepress.vuejs.org/zh/"
+      },
+      {
         "title": "午后南杂",
         "desc": "Enjoy when you can, and endure when you must.",
         "email": "1156743527@qq.com",
@@ -56,10 +63,11 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "廖家明",
     "authorAvatar": "/images/logo.png",
-    "record": "xxxx",
-    "startYear": "2017"
+    // "record": "xxxx",
+    // "startYear": "2017"
   },
   "markdown": {
     "lineNumbers": true
-  }
+  },
+  "plugins": plugins,
 }
